@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.haut1 {
+    background: linear-gradient(#77B5FE, transparent);;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+
+u1{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#nom{
+    flex: 2 1 40rem;
+}
+
+.corps{
+    min-height: 90vh;
+    background: linear-gradient(rgb(0,0,0,0.6), transparent), url("hotel.jpg");
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    padding: 4rem;
+}
+
+button{
+    padding: 2rem 6rem;
+    background: linear-gradient(#77B5FE, transparent);
+    color: white;
+    font-size: 1rem;
+}
